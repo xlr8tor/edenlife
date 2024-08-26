@@ -159,46 +159,46 @@ export default function Footer() {
 
           <Stack align={"flex-start"}>
             <ListHeader>Company</ListHeader>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/about"}>
               About us
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/companies"}>
               Companies
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/pricing"}>
               Pricing
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/careers"}>
               Careers
             </Box>
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>Services</ListHeader>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/services/food"}>
               Food
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/services/cleaning"}>
               Cleaning
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/services/laundry"}>
               Laundry
             </Box>
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>Others</ListHeader>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/faq"}>
               FAQs
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/blogs"}>
               Blogs
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/contact-us"}>
               Contact Us
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/terms"}>
               Terms & Conditions
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/policies"}>
               Privacy Policy
             </Box>
           </Stack>

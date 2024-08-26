@@ -146,7 +146,7 @@ const Services = () => {
                     h="full"
                     w="full"
                     alt={
-                      "A plate of Chinese-style fried rice with two pieces of crispy fried chicken and a glass of red wine, served as a main course."
+                      "A plate of fried rice with 2 pieces of chicken and a glass of wine"
                     }
                   />
                 </Box>

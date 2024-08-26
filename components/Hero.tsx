@@ -105,7 +105,7 @@ export default function HeroSection() {
             />
             <Box zIndex={2}>
               <Image
-                alt={"2 space gray Iphone 13's side by side"}
+                alt={"Two space gray iPhone 13 models shown side by side"}
                 fit={"cover"}
                 align={"center"}
                 src={"/assets/images/hero-phone.png"}
