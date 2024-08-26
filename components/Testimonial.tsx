@@ -6,7 +6,6 @@ import {
   Flex,
   SimpleGrid,
   Image,
-  Heading,
   VisuallyHidden,
   Text,
 } from "@chakra-ui/react";
@@ -83,7 +82,11 @@ export default function Testimonials() {
             gap={8}
           >
             <Box flex={1}>
-              <Text textAlign={{ md: "left" }}>
+              <Text
+                fontSize={"4xl"}
+                fontWeight={"bold"}
+                textAlign={{ md: "left" }}
+              >
                 The Wall of <VisuallyHidden>Love</VisuallyHidden>{" "}
                 <Text as="span" role="presentation">
                   💚

@@ -102,7 +102,12 @@ const FAQ = () => {
           spacing={{ base: 12, md: 10 }}
           direction={{ base: "column", md: "row-reverse" }}
         >
-          <Text textAlign={"center"} display={{ base: "block", md: "none" }}>
+          <Text
+            fontSize={"4xl"}
+            fontWeight={"bold"}
+            textAlign={"center"}
+            display={{ base: "block", md: "none" }}
+          >
             You have questions? We have answers.
           </Text>
           <SimpleAccordion />

@@ -27,7 +27,9 @@ const Services = () => {
           mb={12}
           display={{ base: "flex", lg: "none" }}
         >
-          <Heading>Services</Heading>
+          <Text fontSize={"2xl"} fontWeight={"bold"}>
+            Services
+          </Text>
           <Text textAlign={{ base: "center" }} maxW={"xs"} lineHeight={2}>
             Cancelling & Pausing any time is as easy as clicking a button.
           </Text>
@@ -48,7 +50,9 @@ const Services = () => {
             display={{ base: "none", lg: "flex" }}
           >
             <Stack align={{ base: "center", md: "start" }}>
-              <Heading>Services</Heading>
+              <Text fontSize={"4xl"} fontWeight={"bold"}>
+                Services
+              </Text>
               <Text fontSize={"lg"} maxW={"s"}>
                 Cancelling & Pausing any time is as easy as clicking a button.
               </Text>
