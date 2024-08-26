@@ -64,7 +64,7 @@ export default function Navbar() {
           <Box as="a" href="/">
             <Image
               src={"/assets/logo/eden-logo.svg"}
-              alt={"eden life"}
+              alt={"Logo"}
               fit={"contain"}
               boxSize={"50px"}
             />

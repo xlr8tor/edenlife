@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Edenlife",
+  title: "Home Page",
   description: "A web application to solve your lifestyle needs",
 };
 

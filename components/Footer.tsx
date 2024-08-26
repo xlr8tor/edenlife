@@ -133,7 +133,7 @@ export default function Footer() {
         >
           <Stack spacing={6}>
             <Box>
-              <Image src={"/assets/logo/eden-logo.svg"} alt={"eden life"} />
+              <Image src={"/assets/logo/eden-logo.svg"} alt={"Logo"} />
             </Box>
             <Box as={Stack} display={{ base: "none", md: "flex" }} spacing={4}>
               <Stack direction={"row"} spacing={6}>
