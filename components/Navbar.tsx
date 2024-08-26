@@ -61,7 +61,7 @@ export default function Navbar() {
           maxW={"7xl"}
           margin={"0 auto"}
         >
-          <Box as="a" href="#">
+          <Box as="a" href="/">
             <Image
               src={"/assets/logo/eden-logo.svg"}
               alt={"eden life"}
@@ -97,7 +97,7 @@ const DesktopNav = () => {
               <Box
                 as="a"
                 p={2}
-                href={navItem.href ?? "#"}
+                href={navItem.href ?? "/"}
                 fontSize={"sm"}
                 fontWeight={500}
                 color={linkColor}
@@ -137,7 +137,7 @@ const DesktopNav = () => {
         display={{ base: "none", md: "inline-flex" }}
         fontSize={"sm"}
         fontWeight={"semibold"}
-        href={"#"}
+        href={"/companies"}
         color={"white"}
         px={8}
         bg={"brand.100"}
@@ -209,7 +209,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
       <Box
         py={2}
         as="a"
-        href={href ?? "#"}
+        href={href ?? "/companies"}
         justifyContent="space-between"
         alignItems="center"
         _hover={{
@@ -264,7 +264,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Why Eden?",
-    href: "#",
+    href: "/",
   },
   {
     label: "Services",
@@ -272,22 +272,22 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Food",
         subLabel: "Check out our meals",
-        href: "#",
+        href: "/",
       },
       {
         label: "Laundry",
         subLabel: "Outsource your laundry duties",
-        href: "#",
+        href: "/",
       },
       {
         label: "Cleaning",
         subLabel: "Professional cleaning services",
-        href: "#",
+        href: "/",
       },
       {
         label: "Gifting",
         subLabel: "Up-and-coming Designers",
-        href: "#",
+        href: "/",
       },
     ],
   },
@@ -305,12 +305,12 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Job Board",
         subLabel: "Find your dream design job",
-        href: "#",
+        href: "/",
       },
       {
         label: "Freelance Projects",
         subLabel: "An exclusive list for contract work",
-        href: "#",
+        href: "/",
       },
     ],
   },
