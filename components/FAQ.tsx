@@ -157,6 +157,9 @@ const FAQ = () => {
                 {/* <FormErrorMessage>Your First name is invalid</FormErrorMessage> */}
               </FormControl>
               <FormControl isRequired>
+                <VisuallyHidden>
+                  <FormLabel htmlFor="city">Select your city</FormLabel>
+                </VisuallyHidden>
                 <Select
                   placeholder="Select your city"
                   fontSize={"md"}
@@ -171,9 +174,6 @@ const FAQ = () => {
                   <option value="option2">Lagos</option>
                   <option value="option3">Borno</option>
                 </Select>
-                <VisuallyHidden>
-                  <FormLabel htmlFor="city">Select your city</FormLabel>
-                </VisuallyHidden>
               </FormControl>
             </ButtonGroup>
 
