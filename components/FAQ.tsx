@@ -145,7 +145,7 @@ const FAQ = () => {
               <FormControl variant="floating" id="email" isRequired>
                 <Input p={7} type="email" name="email" autoComplete={"on"} />
                 {/* It is important that the Label comes after the Control due to css selectors */}
-                <FormLabel htmlFor="email">First Name</FormLabel>
+                <FormLabel htmlFor="email">First name</FormLabel>
                 {/* <FormErrorMessage>Your First name is invalid</FormErrorMessage> */}
               </FormControl>
               <FormControl isRequired>

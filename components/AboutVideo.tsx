@@ -1,4 +1,4 @@
-import { AspectRatio, Box, Container, Heading, Stack } from "@chakra-ui/react";
+import { AspectRatio, Box, Container, Text, Stack } from "@chakra-ui/react";
 
 const AboutVideo = () => {
   return (
@@ -9,7 +9,13 @@ const AboutVideo = () => {
         maxW={"7xl"}
         py={{ base: 16, md: 20 }}
       >
-        <Heading textAlign={{ base: "center", md: "left" }}>Why Eden?</Heading>
+        <Text
+          fontSize={"4xl"}
+          fontWeight={"bold"}
+          textAlign={{ base: "center", md: "left" }}
+        >
+          Why Eden?
+        </Text>
         <Box borderRadius={"lg"} overflow="hidden">
           <AspectRatio ratio={{ base: 5 / 4, md: 16 / 9 }}>
             <iframe
