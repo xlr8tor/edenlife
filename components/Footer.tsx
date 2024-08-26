@@ -81,22 +81,21 @@ export default function Footer() {
           borderRadius={"2xl"}
         >
           <Stack flex={1} spacing={3} align={{ base: "center", md: "start" }}>
-            <Heading
+            <Text
               fontWeight={600}
               fontSize={{ base: "3xl", sm: "4xl", lg: "5xl" }}
               color={"brand.150"}
             >
               Get the app!
-            </Heading>
-            <Heading
-              as={"h3"}
+            </Text>
+            <Text
               textAlign={{ base: "center", md: "left" }}
               fontSize={{ base: "lg", md: "2xl" }}
               lineHeight={2}
               color={"brand.150"}
             >
               Sign Up on the Eden Life app. Be happy.
-            </Heading>
+            </Text>
             <Stack
               direction={{ base: "column", md: "row" }}
               spacing={6}
