@@ -79,14 +79,9 @@ const Services = () => {
                   />
                 </Box>
                 <Box p={4}>
-                  <Heading
-                    color={"black"}
-                    fontSize={"2xl"}
-                    noOfLines={1}
-                    mb={3}
-                  >
+                  <Text color={"black"} fontSize={"2xl"} noOfLines={1} mb={3}>
                     Laundry
-                  </Heading>
+                  </Text>
                   <Text noOfLines={2}>
                     Your clothes, picked up, laundered and delivered to you in
                     48 hours or less.
@@ -151,14 +146,9 @@ const Services = () => {
                   />
                 </Box>
                 <Box p={4}>
-                  <Heading
-                    color={"black"}
-                    fontSize={"2xl"}
-                    noOfLines={1}
-                    mb={3}
-                  >
+                  <Text color={"black"} fontSize={"2xl"} noOfLines={1} mb={3}>
                     Food
-                  </Heading>
+                  </Text>
                   <Text noOfLines={2}>
                     Your chef-cooked meals, delivered to you. Daily or weekly.
                   </Text>
@@ -221,14 +211,9 @@ const Services = () => {
                   />
                 </Box>
                 <Box p={4}>
-                  <Heading
-                    color={"black"}
-                    fontSize={"2xl"}
-                    noOfLines={1}
-                    mb={3}
-                  >
+                  <Text color={"black"} fontSize={"2xl"} noOfLines={1} mb={3}>
                     Home Cleaning
-                  </Heading>
+                  </Text>
                   <Text noOfLines={2}>
                     Professional cleaning at your doorstep. Up to thrice a week.
                   </Text>
@@ -290,14 +275,9 @@ const Services = () => {
                   />
                 </Box>
                 <Box p={4}>
-                  <Heading
-                    color={"black"}
-                    fontSize={"2xl"}
-                    noOfLines={1}
-                    mb={3}
-                  >
+                  <Text color={"black"} fontSize={"2xl"} noOfLines={1} mb={3}>
                     Gifting
-                  </Heading>
+                  </Text>
                   <Text noOfLines={2}>
                     Gift cards and gift boxes for every occasion, right at your
                     fingertips.
