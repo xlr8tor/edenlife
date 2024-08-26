@@ -97,7 +97,7 @@ const DesktopNav = () => {
               <Box
                 as="a"
                 p={2}
-                href={navItem.href ?? "/"}
+                href={navItem.href}
                 fontSize={"sm"}
                 fontWeight={500}
                 color={linkColor}
@@ -264,7 +264,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Why Eden?",
-    href: "/",
+    href: "/about",
   },
   {
     label: "Services",
@@ -272,22 +272,22 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Food",
         subLabel: "Check out our meals",
-        href: "/",
+        href: "/services/food",
       },
       {
         label: "Laundry",
         subLabel: "Outsource your laundry duties",
-        href: "/",
+        href: "/services/laundry",
       },
       {
         label: "Cleaning",
         subLabel: "Professional cleaning services",
-        href: "/",
+        href: "/services/cleaning",
       },
       {
         label: "Gifting",
         subLabel: "Up-and-coming Designers",
-        href: "/",
+        href: "/services/gifting",
       },
     ],
   },
@@ -305,12 +305,12 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Job Board",
         subLabel: "Find your dream design job",
-        href: "/",
+        href: "/contactus/careers",
       },
       {
-        label: "Freelance Projects",
+        label: "Partnerships",
         subLabel: "An exclusive list for contract work",
-        href: "/",
+        href: "/contactus/partnerships",
       },
     ],
   },

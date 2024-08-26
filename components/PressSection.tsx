@@ -26,22 +26,22 @@ const PressSection = () => {
           <Image
             boxSize={"120px"}
             src={"/assets/icons/future-africa.svg"}
-            alt="future africa"
+            alt="Partner: Future africa publishing"
           />
           <Image
             boxSize={"120px"}
             src={"/assets/icons/techpoint.svg"}
-            alt="techpoint"
+            alt="Partner: Techpoint Africa"
           />
           <Image
             boxSize={"60px"}
             src={"/assets/icons/datadog.svg"}
-            alt="datadog"
+            alt="Partner: Datadog"
           />
           <Image
             boxSize={"120px"}
             src={"/assets/icons/techcabal.svg"}
-            alt="techcabal"
+            alt="Partner: Techcabal Nigeria"
           />
         </SimpleGrid>
       </Container>
