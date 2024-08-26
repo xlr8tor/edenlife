@@ -1,20 +1,13 @@
 "use client";
-import {
-  Box,
-  Container,
-  Heading,
-  Image,
-  SimpleGrid,
-  Wrap,
-} from "@chakra-ui/react";
+import { Box, Container, Image, SimpleGrid, Text } from "@chakra-ui/react";
 
 const PressSection = () => {
   return (
     <Box bg={"brand.900"}>
       <Container maxW={"7xl"} py={{ base: 24, md: 32 }}>
-        <Heading size={{ base: "lg", md: "xl" }} textAlign={"center"} mb={14}>
+        <Text fontSize={{ base: "lg", md: "xl" }} textAlign={"center"} mb={14}>
           Check us out in the press
-        </Heading>
+        </Text>
         <SimpleGrid
           maxW={"5xl"}
           spacing={8}

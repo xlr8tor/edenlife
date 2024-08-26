@@ -10,10 +10,8 @@ import {
   Text,
   Container,
   Stack,
-  Heading,
   FormControl,
   FormLabel,
-  FormErrorMessage,
   Input,
   Button,
   Select,
@@ -104,9 +102,9 @@ const FAQ = () => {
           spacing={{ base: 12, md: 10 }}
           direction={{ base: "column", md: "row-reverse" }}
         >
-          <Heading textAlign={"center"} display={{ base: "block", md: "none" }}>
+          <Text textAlign={"center"} display={{ base: "block", md: "none" }}>
             You have questions? We have answers.
-          </Heading>
+          </Text>
           <SimpleAccordion />
           <Flex
             flex={1}
@@ -117,13 +115,13 @@ const FAQ = () => {
             gap={6}
             mt={{ base: 6, md: 0 }}
           >
-            <Heading
+            <Text
               textAlign={"center"}
               display={{ base: "none", md: "block" }}
               mb={10}
             >
               You have questions? We have answers.
-            </Heading>
+            </Text>
             <Stack align={"center"}>
               <Text fontSize={"lg"} fontWeight={"semibold"}>
                 Not in Lagos?

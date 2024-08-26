@@ -83,12 +83,12 @@ export default function Testimonials() {
             gap={8}
           >
             <Box flex={1}>
-              <Heading textAlign={{ md: "left" }}>
+              <Text textAlign={{ md: "left" }}>
                 The Wall of <VisuallyHidden>Love</VisuallyHidden>{" "}
                 <Text as="span" role="presentation">
                   💚
                 </Text>
-              </Heading>
+              </Text>
             </Box>
             <Box flex={1}>
               <SimpleGrid
