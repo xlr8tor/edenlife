@@ -7,6 +7,7 @@ export default function AppStoreBadge() {
         <Image
           src={"/assets/icons/app_store.svg"}
           alt={"Download Edenlife app on Apple App Store"}
+          loading="lazy"
         />
       }
       bg={"black"}

@@ -1,13 +1,5 @@
 "use client";
-import {
-  Avatar,
-  chakra,
-  Flex,
-  Stack,
-  HStack,
-  Text,
-  useColorModeValue,
-} from "@chakra-ui/react";
+import { Avatar, Flex, Stack, Text } from "@chakra-ui/react";
 
 interface TestimonialCardProps {
   name: string;
@@ -34,7 +26,12 @@ function TestimonialCard(props: TestimonialCardProps) {
       gap={3}
     >
       <Flex gap={3}>
-        <Avatar src={avatar} size="lg" name={name + " profile picture"} />
+        <Avatar
+          src={avatar}
+          size="lg"
+          name={name + " profile picture"}
+          loading="lazy"
+        />
         <Stack align={"start"} justify={"center"} spacing={1}>
           <Text>{name}</Text>
           <Text fontSize={"sm"} color={"brand.200"} fontWeight={"bold"}>

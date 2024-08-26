@@ -100,12 +100,36 @@ export default function Testimonials() {
                 aria-label="Corporate Partners"
                 alignItems={"center"}
               >
-                <Image src="/assets/icons/cowrywise.svg" alt="Cowrywise" />
-                <Image src="/assets/icons/flutterwave.svg" alt="Flutterwave" />
-                <Image src="/assets/icons/paystack.svg" alt="Paystack" />
-                <Image src="/assets/icons/kuda.svg" alt="Kuda Bank" />
-                <Image src="/assets/icons/buycoins.svg" alt="BuyCoins" />
-                <Image src="/assets/icons/piggyvest.svg" alt="Piggyvest" />
+                <Image
+                  src="/assets/icons/cowrywise.svg"
+                  alt="Cowrywise"
+                  loading="lazy"
+                />
+                <Image
+                  src="/assets/icons/flutterwave.svg"
+                  alt="Flutterwave"
+                  loading="lazy"
+                />
+                <Image
+                  src="/assets/icons/paystack.svg"
+                  alt="Paystack"
+                  loading="lazy"
+                />
+                <Image
+                  src="/assets/icons/kuda.svg"
+                  alt="Kuda Bank"
+                  loading="lazy"
+                />
+                <Image
+                  src="/assets/icons/buycoins.svg"
+                  alt="BuyCoins"
+                  loading="lazy"
+                />
+                <Image
+                  src="/assets/icons/piggyvest.svg"
+                  alt="Piggyvest"
+                  loading="lazy"
+                />
               </SimpleGrid>
             </Box>
           </Flex>

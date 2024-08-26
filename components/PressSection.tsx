@@ -20,21 +20,25 @@ const PressSection = () => {
             boxSize={"120px"}
             src={"/assets/icons/future-africa.svg"}
             alt="Partner: Future africa publishing"
+            loading="lazy"
           />
           <Image
             boxSize={"120px"}
             src={"/assets/icons/techpoint.svg"}
             alt="Partner: Techpoint Africa"
+            loading="lazy"
           />
           <Image
             boxSize={"60px"}
             src={"/assets/icons/datadog.svg"}
             alt="Partner: Datadog"
+            loading="lazy"
           />
           <Image
             boxSize={"120px"}
             src={"/assets/icons/techcabal.svg"}
             alt="Partner: Techcabal Nigeria"
+            loading="lazy"
           />
         </SimpleGrid>
       </Container>

@@ -7,6 +7,7 @@ export default function PlayStoreBadge() {
         <Image
           src={"/assets/icons/play_store.svg"}
           alt={"Download Edenlife app on Google Play"}
+          loading="lazy"
         />
       }
       bg={"black"}
