@@ -62,7 +62,7 @@ const SimpleAccordion = () => {
         <AccordionItem key={id}>
           {({ isExpanded }) => (
             <>
-              <Heading size="lg">
+              <Text size="lg">
                 <AccordionButton
                   display="flex"
                   alignItems="center"
@@ -84,7 +84,7 @@ const SimpleAccordion = () => {
                     <CiCirclePlus size={"30"} />
                   )}
                 </AccordionButton>
-              </Heading>
+              </Text>
               <AccordionPanel pb={4}>{answer}</AccordionPanel>
             </>
           )}
