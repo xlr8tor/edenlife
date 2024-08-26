@@ -140,15 +140,9 @@ const FAQ = () => {
               spacing={0}
             >
               <FormControl variant="floating" id="email" isRequired>
-                <Input
-                  placeholder=" "
-                  p={7}
-                  type="email"
-                  name="email"
-                  autoComplete={"on"}
-                />
+                <Input p={7} type="email" name="email" autoComplete={"on"} />
                 {/* It is important that the Label comes after the Control due to css selectors */}
-                <FormLabel htmlFor="email">First name</FormLabel>
+                <FormLabel htmlFor="email">First Name</FormLabel>
                 {/* <FormErrorMessage>Your First name is invalid</FormErrorMessage> */}
               </FormControl>
               <FormControl isRequired>
@@ -167,7 +161,7 @@ const FAQ = () => {
                   <option value="option3">Borno</option>
                 </Select>
                 <VisuallyHidden>
-                  <FormLabel htmlFor="city">City</FormLabel>
+                  <FormLabel htmlFor="city">Select your city</FormLabel>
                 </VisuallyHidden>
               </FormControl>
             </ButtonGroup>
