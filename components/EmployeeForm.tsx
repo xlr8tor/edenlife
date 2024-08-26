@@ -26,6 +26,7 @@ import {
   MenuItem,
   MenuList,
   MenuGroup,
+  VisuallyHidden,
 } from "@chakra-ui/react";
 
 import { useToast } from "@chakra-ui/react";
@@ -260,7 +261,13 @@ const Form1 = () => {
                   key={option}
                   onClick={(e) => handleCheckboxChange(e, option)}
                 >
-                  <Checkbox isChecked={selectedOptions.includes(option)}>
+                  <VisuallyHidden>
+                    <label htmlFor="option">Select Option</label>
+                  </VisuallyHidden>
+                  <Checkbox
+                    id="option"
+                    isChecked={selectedOptions.includes(option)}
+                  >
                     {option}
                   </Checkbox>
                 </MenuItem>
