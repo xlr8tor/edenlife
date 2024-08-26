@@ -4,7 +4,10 @@ export default function PlayStoreBadge() {
   return (
     <Button
       leftIcon={
-        <Image src={"/assets/icons/play_store.svg"} alt={"Google Play Store"} />
+        <Image
+          src={"/assets/icons/play_store.svg"}
+          alt={"Download Edenlife app on Google Play"}
+        />
       }
       bg={"black"}
       color={"white"}

@@ -3,7 +3,12 @@ import { Button, Stack, Text, Image } from "@chakra-ui/react";
 export default function AppStoreBadge() {
   return (
     <Button
-      leftIcon={<Image src={"/assets/icons/app_store.svg"} alt={"Apple Inc"} />}
+      leftIcon={
+        <Image
+          src={"/assets/icons/app_store.svg"}
+          alt={"Download Edenlife app on Apple App Store"}
+        />
+      }
       bg={"black"}
       color={"white"}
       py={8}
