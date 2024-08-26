@@ -256,16 +256,16 @@ const Form1 = () => {
           </MenuButton>
           <MenuList>
             <MenuGroup>
-              {services.map((option) => (
+              {services.map((option, id) => (
                 <MenuItem
                   key={option}
                   onClick={(e) => handleCheckboxChange(e, option)}
                 >
                   <VisuallyHidden>
-                    <label htmlFor="option">Select Option</label>
+                    <label htmlFor={"option" + id}>Option: </label>
                   </VisuallyHidden>
                   <Checkbox
-                    id="option"
+                    id={"option" + id}
                     isChecked={selectedOptions.includes(option)}
                   >
                     {option}
