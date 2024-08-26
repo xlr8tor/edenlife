@@ -109,6 +109,7 @@ export default function HeroSection() {
                 fit={"cover"}
                 align={"center"}
                 src={"/assets/images/hero-phone.png"}
+                loading="lazy"
               />
             </Box>
           </Flex>
