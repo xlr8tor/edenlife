@@ -151,7 +151,7 @@ export default function Footer() {
                 </SocialButton>
               </Stack>
               <Text fontSize={"sm"}>
-                © 2021 Eden Life Inc. All rights reserved.
+                © 2025 Eden Life Inc. All rights reserved.
               </Text>
             </Box>
           </Stack>
